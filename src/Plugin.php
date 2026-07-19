@@ -19,8 +19,9 @@ final class Plugin
             (new Admin\Admin())->register();
         }
 
-        // Future:
-        // (new Menu\Menu())->register();
+     
+         (new Menu\Menu())->register();
+        use WP_Restaurant\Menu\Menu;
         // (new Reservation\Reservation())->register();
         // (new REST\Api())->register();
     }
